@@ -38,7 +38,10 @@ body {
     font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
     font-weight: 700;
     font-style: normal;
-    font-size: 3.75rem;
-    background: linear-gradient(180deg, whitesmoke, rgb(44, 44, 44));
-    -webkit-background-clip: text; 
+    font-size: 3.75rem;                     /* Tamanho da fonte */
+    background: linear-gradient(135deg, rgb(172, 177, 173), rgb(68 64 60) 125%); /* Gradiente do texto */
+    -webkit-background-clip: text;       /* Aplica o gradiente ao texto */
+    -webkit-text-fill-color: transparent; /* Torna a cor do texto transparente */
+    background-clip: text;               /* Para navegadores que suportam */
+    text-fill-color: transparent;     
 }
