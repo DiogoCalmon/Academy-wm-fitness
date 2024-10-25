@@ -1,0 +1,44 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0E100F;
+    color: whitesmoke;
+    height: 100vh;
+}
+
+#first-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#muscular-guy {
+    
+    width: 70%;
+    position: relative;
+    left: 3%;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+#text-apresentation {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.apresentation {
+    font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.75rem;
+    background: linear-gradient(180deg, whitesmoke, rgb(44, 44, 44));
+    -webkit-background-clip: text; 
+}
