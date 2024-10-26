@@ -23,7 +23,7 @@ body {
 }
 
 #logo {
-    width: 15rem;
+    width: 12rem;
     opacity: 60%;
 }
 
@@ -36,14 +36,14 @@ body {
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 
-#text-apresentation {
+#text-presentation {
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
 }
 
-.apresentation {
+.presentation {
     font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
     font-weight: 700;
     font-style: normal;
