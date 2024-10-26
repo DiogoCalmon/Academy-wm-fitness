@@ -61,14 +61,27 @@ body {
     align-items: center;
     justify-content: center;
     font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-    font-weight: 700;
+    font-weight: 200;
     font-style: normal;
-    font-size: 1.25rem;    
+    font-size: 1.25rem;
+    background: linear-gradient(to bottom, rgb(172, 177, 173), rgb(95, 95, 95)200%); /* Gradiente do texto */
+    -webkit-background-clip: text;       /* Aplica o gradiente ao texto */
+    -webkit-text-fill-color: transparent; /* Torna a cor do texto transparente */
+    background-clip: text;    
 }
 
 #blocks-objectives {
-    background-color: red;
+    
+    height: 10rem;
     width: 70%;
     display: flex;
     justify-content: space-evenly;
+}
+
+.little-blocks {
+    margin: 5px;
+    background: linear-gradient(135deg, rgb(59, 59, 59), rgb(32, 32, 32)); /* Gradiente do texto */
+    
+    width: 100%;
+    border-radius: 45px;
 }
