@@ -63,7 +63,7 @@ body {
     font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
     font-weight: 200;
     font-style: normal;
-    font-size: 1.25rem;
+    font-size: 1.20rem;
     background: linear-gradient(to bottom, rgb(172, 177, 173), rgb(95, 95, 95)200%); /* Gradiente do texto */
     -webkit-background-clip: text;       /* Aplica o gradiente ao texto */
     -webkit-text-fill-color: transparent; /* Torna a cor do texto transparente */
@@ -84,17 +84,36 @@ body {
     justify-content: center;
     align-items: center;
     margin: 5px;
-    background: linear-gradient(180deg, rgb(59, 59, 59)50%, rgba(32, 32, 32, 0));
+    background: linear-gradient(180deg, rgb(59, 59, 59)50%, rgb(32, 32, 32));
     width: 50%;
     border-radius: 45px;
-    opacity: 1;
+    opacity: 50%;
 }
 
 #heart {
+    opacity: 100%;
     width: 6rem;
 }
 
 .little-blocks h4{
-    color: blue;
-    opacity: 80%;
+    margin-top: 0.6rem;
+    font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.25rem;
+    background: linear-gradient(to bottom, rgb(255, 255, 255)5%, rgb(255, 255, 255)120%); /* Gradiente do texto */
+    -webkit-background-clip: text;       /* Aplica o gradiente ao texto */
+    -webkit-text-fill-color: transparent; /* Torna a cor do texto transparente */
+    background-clip: text;    
+    opacity: 120%;
+}
+
+#brain {
+    opacity: 100%;
+    width: 6rem;
+}
+
+#arm {
+    opacity: 100%;
+    width: 5.5rem;
 }
