@@ -53,3 +53,22 @@ body {
     -webkit-text-fill-color: transparent; /* Torna a cor do texto transparente */
     background-clip: text;               /* Para navegadores que suportam */   
 }
+
+#description-objectives {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.25rem;    
+}
+
+#blocks-objectives {
+    background-color: red;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
