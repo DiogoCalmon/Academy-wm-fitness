@@ -160,11 +160,45 @@ body {
     align-items: center;
 }
 
+#images-part h3 {
+    font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.85rem;
+    background: linear-gradient(to bottom, rgb(172, 177, 173), rgb(95, 95, 95)200%); /* Gradiente do texto */
+    -webkit-background-clip: text;       /* Aplica o gradiente ao texto */
+    -webkit-text-fill-color: transparent; /* Torna a cor do texto transparente */
+    background-clip: text;
+    margin-bottom: 1rem;
+}
+
 #box-of-images {
-    background: linear-gradient(180deg, rgb(59, 59, 59), rgba(32, 32, 32, 0)60%);
+    background: linear-gradient(180deg, rgb(56, 56, 56), rgba(32, 32, 32, 0)60%);
     border-radius: 60px;
-    width: 75%;
+    width: 90%;
+    gap: 20rem;
     display: flex;
     justify-content: space-evenly;
-    
+}
+
+#equipaments ul li {
+    margin-bottom: 4rem;
+    list-style-type: none;
+    font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.25rem;
+    background: linear-gradient(to bottom, rgb(255, 255, 255)5%, rgb(255, 255, 255)120%); /* Gradiente do texto */
+    -webkit-background-clip: text;       /* Aplica o gradiente ao texto */
+    background-clip: text;
+    gap: 1rem; 
+    opacity: 70%;
+}
+
+#images-of-equipaments {
+    width: 250px;           /* Defina a largura desejada */
+    height: 200px;          /* Defina a altura desejada */
+    overflow-y: auto;       /* Rolagem vertical para quando houver overflow */
+    padding: 10px;
+    position: relative;
 }
