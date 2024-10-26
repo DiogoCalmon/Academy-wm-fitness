@@ -79,9 +79,22 @@ body {
 }
 
 .little-blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 5px;
-    background: linear-gradient(135deg, rgb(59, 59, 59), rgb(32, 32, 32)); /* Gradiente do texto */
-    
-    width: 100%;
+    background: linear-gradient(180deg, rgb(59, 59, 59)50%, rgba(32, 32, 32, 0));
+    width: 50%;
     border-radius: 45px;
+    opacity: 1;
+}
+
+#heart {
+    width: 6rem;
+}
+
+.little-blocks h4{
+    color: blue;
+    opacity: 80%;
 }
