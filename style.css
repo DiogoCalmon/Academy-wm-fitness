@@ -18,7 +18,13 @@ body {
 }
 
 #logo-home {
-    width: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    width: 15rem;
+    opacity: 60%;
 }
 
 #muscular-guy {
