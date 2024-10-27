@@ -8,7 +8,21 @@ body {
     background-color: #0E100F;
     color: whitesmoke;
     height: 100vh;
+    overflow-y: auto;
 }
+
+::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
 
 #first-block {
     display: flex;
@@ -176,9 +190,17 @@ body {
     background: linear-gradient(180deg, rgb(56, 56, 56), rgba(32, 32, 32, 0)60%);
     border-radius: 60px;
     width: 90%;
-    gap: 20rem;
+    height: 50rem;
+    gap: 8rem;
     display: flex;
     justify-content: space-evenly;
+
+}
+
+#equipaments {
+    margin-top: 7rem;
+    height: 30rem;
+    overflow-y: auto;
 }
 
 #equipaments ul li {
@@ -195,10 +217,7 @@ body {
     opacity: 70%;
 }
 
-#images-of-equipaments {
-    width: 250px;           /* Defina a largura desejada */
-    height: 200px;          /* Defina a altura desejada */
-    overflow-y: auto;       /* Rolagem vertical para quando houver overflow */
-    padding: 10px;
-    position: relative;
+.images-of-equipaments {
+    background-color: red;
+    width: 40rem;
 }
