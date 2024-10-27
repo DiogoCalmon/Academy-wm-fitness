@@ -20,8 +20,14 @@ body {
   }
 
   ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #88888831;
     border-radius: 10px;
+    transition: width 1s ease, background-color 0.3s ease;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888;
+    width: 0.40rem;
   }
 
 #first-block {
