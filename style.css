@@ -364,6 +364,10 @@ footer h4 {
 
 @media screen and (max-width: 990px) {
 
+    body {
+        box-sizing: border-box;
+    }
+
     #first-block{
         display: flex;
         justify-content: center;
@@ -372,7 +376,7 @@ footer h4 {
     }
 
     #logo {
-        width: 15rem
+        width: 15vh;
     }
 
     .presentation {
