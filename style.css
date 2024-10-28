@@ -12,7 +12,6 @@ body {
 }
 
 main {
-    background-color: red;
     min-width: 100vh;
 }
 
@@ -39,6 +38,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 100vh;
 }
 
 #logo {
@@ -363,15 +363,132 @@ footer h4 {
 }
 
 @media screen and (max-width: 990px) {
+
+    #first-block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 100vh;
+    }
+
     #logo {
-        width: 5rem
+        width: 15rem
     }
 
     .presentation {
-        font-size: 1.25rem; 
+        font-size: 4.75rem; 
+    }
+
+    #muscular-guy {
+        margin-top: 4.5rem;
+        margin-left: 3.5vh;
+        width: 120%;
+    }
+
+    #description-objectives {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #description-objectives h3 {
-        font-size: 0.30rem;
+        font-size: 2.90rem;
+        text-align: center;
+    }
+
+    #blocks-objectives {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+        height: 120vh;
+    }
+
+    .little-blocks {
+        width: 65vh;
+        height: 30vh;
+    }
+
+    .little-blocks h4 {
+        font-size: 2.10rem;
+    }
+
+    #heart {
+        opacity: 100%;
+        width: 10rem;
+    }
+
+    #brain {
+        opacity: 100%;
+        width: 10.5rem;
+    }
+    
+    #arm {
+        opacity: 100%;
+        width: 9rem;
+    }
+
+    #arrow {
+        width: 10rem;
+    }
+
+    #obs h6 {
+        font-size: 2.9rem;
+    }
+
+    #images-part h3 {
+        margin-inline: 2rem;
+        text-align: center;
+        font-size: 2.85rem;
+    }
+
+    #video-part h3 {
+        margin-inline: 2rem;
+        text-align: center;
+        font-size: 2.85rem;
+    }
+
+    #calling-user h3 {
+        margin-inline: 2rem;
+        text-align: center;
+        font-size: 2.55rem;
+    }
+
+    #calling-user p {
+        margin-inline: 2rem;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .btn {
+        width: 70vh;
+        padding: 1rem 8rem;
+        font-size: 2rem;
+        display: flex;
+        gap: 4rem;
+    }
+
+    footer {
+        width: 100vh;
+    }
+
+    footer h4 {
+        font-size: 2.6rem;
+        margin-bottom: 4rem;
+        margin-top: 4rem;
+    }
+
+    .social-blocks {
+        display: flex;
+        gap: 3rem;
+        margin-bottom: 5rem;
+    }
+
+    .instagram img {
+        width: 4rem;
+    }
+
+    .whatsapp img {
+        width: 4rem;
     }
 }
