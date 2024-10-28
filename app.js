@@ -5,8 +5,6 @@ equipaments.forEach(equipament => {
         let image = document.querySelector(".images-of-equipaments img");
         let equip = equipament.textContent;
 
-        console.log(`img/${equip}.jpg`);
-
         image.classList.remove("fade-out");
         void image.offsetWidth;
         image.classList.add("fade-out");
