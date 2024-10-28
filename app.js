@@ -7,6 +7,8 @@ equipaments.forEach(equipament => {
 
         console.log(`img/${equip}.jpg`);
 
+        image.classList.remove("fade-out");
+        void image.offsetWidth;
         image.classList.add("fade-out");
 
         setTimeout(() => {
@@ -14,8 +16,6 @@ equipaments.forEach(equipament => {
 
             image.onload = () => {
                 image.classList.remove("fade-out");
-                image.style.opacity = "1";
-                image.style.transform = "scale(1)";
             };
         }, 500);
     });     
