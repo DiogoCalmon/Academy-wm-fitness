@@ -8,7 +8,7 @@ body {
     background-color: #0E100F;
     color: whitesmoke;
     height: 100vh;
-    overflow-y: auto;
+    overflow-y: hiden;
 }
 
 ::-webkit-scrollbar {
@@ -16,14 +16,12 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background: transparent
-  }
-
-  ::-webkit-scrollbar-thumb {
     background: transparent;
-    border-radius: 10px;
-    transition: 0.5s ease;
-  }
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(88, 88, 88);
+}
 
 #first-block {
     display: flex;
@@ -219,6 +217,19 @@ body {
 }
 
 .images-of-equipaments {
-    background-color: red;
+    margin-top: 2rem;
+    height: 40rem;
     width: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images-of-equipaments img {
+    max-width: 100%; /* A largura máxima será a do contêiner */
+    max-height: 100%;
+    border-radius: 40px;
+    
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1)75%, rgba(0, 0, 0, 0));
 }
