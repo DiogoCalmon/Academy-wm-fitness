@@ -193,7 +193,6 @@ body {
     gap: 8rem;
     display: flex;
     justify-content: space-evenly;
-
 }
 
 #equipaments {
@@ -213,7 +212,13 @@ body {
     -webkit-background-clip: text;       /* Aplica o gradiente ao texto */
     background-clip: text;
     gap: 1rem; 
+    opacity: 40%;
+    transition: all 0.2s;
+}
+
+#equipaments ul li:hover {
     opacity: 70%;
+    cursor: pointer;
 }
 
 .images-of-equipaments {
@@ -229,7 +234,14 @@ body {
     max-width: 100%; /* A largura máxima será a do contêiner */
     max-height: 100%;
     border-radius: 40px;
-    
     -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1)75%, rgba(0, 0, 0, 0));
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Anima opacidade e escala */
+    opacity: 1; /* Opacidade inicial */
+    transform: scale(1); /* Escala inicial */
+}
+
+.images-of-equipaments img.fade-out {
+    opacity: 0; /* Quando a classe fade-out é adicionada, a opacidade vai para 0 */
+    transform: scale(0.8); /* Reduz a escala */
 }
