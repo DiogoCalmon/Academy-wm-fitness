@@ -20,14 +20,9 @@ body {
   }
 
   ::-webkit-scrollbar-thumb {
-    background: #88888831;
+    background: transparent;
     border-radius: 10px;
-    transition: width 1s ease, background-color 0.3s ease;
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    background: #888;
-    width: 0.40rem;
+    transition: 0.5s ease;
   }
 
 #first-block {
