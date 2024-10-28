@@ -11,6 +11,11 @@ body {
     overflow-y: hiden;
 }
 
+main {
+    background-color: red;
+    min-width: 100vh;
+}
+
 ::-webkit-scrollbar {
     width: 0.25rem;
 }
@@ -33,6 +38,7 @@ body {
 #logo-home {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #logo {
@@ -41,8 +47,8 @@ body {
 }
 
 #muscular-guy {
-    
     width: 70%;
+    height: 100%;
     position: relative;
     left: 3%;
     -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
@@ -196,9 +202,13 @@ body {
 }
 
 #equipaments {
+    width: 20rem;
     margin-top: 7rem;
     height: 30rem;
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #equipaments ul li {
@@ -350,4 +360,18 @@ footer h4 {
 
 .whatsapp img{
     width: 2rem;
+}
+
+@media screen and (max-width: 990px) {
+    #logo {
+        width: 5rem
+    }
+
+    .presentation {
+        font-size: 1.25rem; 
+    }
+
+    #description-objectives h3 {
+        font-size: 0.30rem;
+    }
 }
