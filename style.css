@@ -246,3 +246,23 @@ body {
     opacity: 0; /* Quando a classe fade-out é adicionada, a opacidade vai para 0 */
     transform: scale(0.8); /* Reduz a escala */
 }
+
+#video-part {
+    margin-top: 2rem;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#video-part h3 {
+    font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.85rem;
+    background: linear-gradient(to bottom, rgb(172, 177, 173), rgb(95, 95, 95)200%); /* Gradiente do texto */
+    -webkit-background-clip: text;       /* Aplica o gradiente ao texto */
+    -webkit-text-fill-color: transparent; /* Torna a cor do texto transparente */
+    background-clip: text;
+    margin-bottom: 1rem;
+}
