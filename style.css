@@ -178,7 +178,7 @@ body {
     font-weight: 700;
     font-style: normal;
     font-size: 1.85rem;
-    background: linear-gradient(to bottom, rgb(172, 177, 173), rgb(95, 95, 95)200%); /* Gradiente do texto */
+    background: linear-gradient(to bottom, rgb(211, 211, 211), rgb(95, 95, 95)200%); /* Gradiente do texto */
     -webkit-background-clip: text;       /* Aplica o gradiente ao texto */
     -webkit-text-fill-color: transparent; /* Torna a cor do texto transparente */
     background-clip: text;
@@ -211,13 +211,12 @@ body {
     background: linear-gradient(to bottom, rgb(255, 255, 255)5%, rgb(255, 255, 255)120%); /* Gradiente do texto */
     -webkit-background-clip: text;       /* Aplica o gradiente ao texto */
     background-clip: text;
-    gap: 1rem; 
     opacity: 40%;
     transition: all 0.2s;
 }
 
 #equipaments ul li:hover {
-    opacity: 70%;
+    opacity: 90%;
     font-size: 1.45rem;
     cursor: pointer;
 }
@@ -238,7 +237,7 @@ body {
     -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1)75%, rgba(0, 0, 0, 0));
     transition: opacity 0.5s ease, transform 0.5s ease; /* Anima opacidade e escala */
-    opacity: 1; /* Opacidade inicial */
+    opacity: 0.8; /* Opacidade inicial */
     transform: scale(1); /* Escala inicial */
 }
 
@@ -248,7 +247,6 @@ body {
 }
 
 #video-part {
-    margin-top: 2rem;;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -260,9 +258,62 @@ body {
     font-weight: 700;
     font-style: normal;
     font-size: 1.85rem;
-    background: linear-gradient(to bottom, rgb(172, 177, 173), rgb(95, 95, 95)200%); /* Gradiente do texto */
+    background: linear-gradient(to bottom, rgb(211, 211, 211), rgb(95, 95, 95)200%); /* Gradiente do texto */
     -webkit-background-clip: text;       /* Aplica o gradiente ao texto */
     -webkit-text-fill-color: transparent; /* Torna a cor do texto transparente */
     background-clip: text;
     margin-bottom: 1rem;
+}
+
+#video-part video {
+    border-radius: 100px;
+    opacity: 70%;
+}
+
+#calling-user {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#calling-user h3 {
+    font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.85rem;
+    background: linear-gradient(to bottom, rgb(211, 211, 211), rgb(95, 95, 95)200%); /* Gradiente do texto */
+    -webkit-background-clip: text;       /* Aplica o gradiente ao texto */
+    -webkit-text-fill-color: transparent; /* Torna a cor do texto transparente */
+    background-clip: text;
+    margin-bottom: 1rem;
+}
+
+#calling-user p {
+    font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.35rem;
+    background: linear-gradient(to bottom, rgb(211, 211, 211), rgb(95, 95, 95)200%); /* Gradiente do texto */
+    -webkit-background-clip: text;       /* Aplica o gradiente ao texto */
+    -webkit-text-fill-color: transparent; /* Torna a cor do texto transparente */
+    background-clip: text;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    color: rgb(240, 240, 240);
+    border-radius: 12px;
+    cursor: pointer;
+    width: 20%;
+    height: 20%;
+    background: linear-gradient(180deg, rgb(59, 59, 59)70%, rgb(32, 32, 32));
+    left: 0;
+    top: 0;
+    border-radius: 10px;
 }
