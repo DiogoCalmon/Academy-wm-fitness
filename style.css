@@ -317,3 +317,37 @@ body {
     top: 0;
     border-radius: 10px;
 }
+
+footer {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h4 {
+    font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.35rem;
+    background: linear-gradient(to bottom, rgb(211, 211, 211), rgb(95, 95, 95)200%); /* Gradiente do texto */
+    -webkit-background-clip: text;       /* Aplica o gradiente ao texto */
+    -webkit-text-fill-color: transparent; /* Torna a cor do texto transparente */
+    background-clip: text;
+    margin-bottom: 1rem;
+}
+
+.social-blocks {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+.instagram img{
+    width: 2rem;
+}
+
+.whatsapp img{
+    width: 2rem;
+}
