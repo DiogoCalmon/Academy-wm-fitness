@@ -186,7 +186,7 @@ body {
 }
 
 #box-of-images {
-    background: linear-gradient(180deg, rgb(56, 56, 56), rgba(32, 32, 32, 0)60%);
+    background: linear-gradient(180deg, rgb(41, 41, 41), rgba(32, 32, 32, 0)60%);
     border-radius: 60px;
     width: 90%;
     height: 50rem;
@@ -218,6 +218,7 @@ body {
 
 #equipaments ul li:hover {
     opacity: 70%;
+    font-size: 1.45rem;
     cursor: pointer;
 }
 
