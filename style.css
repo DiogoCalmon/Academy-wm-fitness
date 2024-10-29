@@ -8,10 +8,11 @@ body {
     background-color: #0E100F;
     color: whitesmoke;
     height: 100vh;
+    width: 100vw;
 }
 
 main {
-    min-width: 100vh;
+    width: 100vw;
 }
 
 ::-webkit-scrollbar {
@@ -362,6 +363,10 @@ footer h4 {
 
 @media screen and (max-width: 990px) {
 
+    body {
+        overflow-x: hidden !important;
+    }
+
     header {
         width: 100vw;
     }
@@ -388,14 +393,19 @@ footer h4 {
     }
 
     .presentation {
-        font-size: 3.05rem; 
+        font-size: 2.75rem;
+        margin-inline: 1rem;
     }
 
     #muscular-guy {
         margin-top: 4.5rem;
-        margin-left: 10vw;
-        width: 170%;
-        margin-bottom: 5rem;;
+        left: 0%;
+        width: 100%;
+        margin-bottom: 5rem;
+        max-width: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center; 
     }
 
     #description-objectives {
@@ -407,7 +417,7 @@ footer h4 {
     }
 
     #description-objectives h3 {
-        font-size: 2.90rem;
+        font-size: 2.20rem;
         text-align: center;
     }
 
@@ -427,22 +437,22 @@ footer h4 {
     }
 
     .little-blocks h4 {
-        font-size: 2.10rem;
+        font-size: 1.60rem;
     }
 
     #heart {
         opacity: 100%;
-        width: 10rem;
+        width: 7rem;
     }
 
     #brain {
         opacity: 100%;
-        width: 10.5rem;
+        width: 7.5rem;
     }
     
     #arm {
         opacity: 100%;
-        width: 9rem;
+        width: 6rem;
     }
 
     #arrow {
@@ -470,6 +480,10 @@ footer h4 {
         width: 100vw;
     }
 
+    #images-part h3 {
+        font-size: 1.55rem;
+    }
+
     #box-of-images {
         height: 30%;
         width: 90vw;
@@ -483,7 +497,7 @@ footer h4 {
     #images-part h3 {
         margin-inline: 2rem;
         text-align: center;
-        font-size: 2.85rem;
+        font-size: 2.35rem !important;
     }
 
     #video-part {
@@ -513,7 +527,7 @@ footer h4 {
     }
 
     #calling-user {
-        width: 100vw
+        width: 100vw;
     }
 
     #calling-user h3 {
