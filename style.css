@@ -66,11 +66,11 @@ main {
     font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
     font-weight: 700;
     font-style: normal;
-    font-size: 3.75rem;                     /* Tamanho da fonte */
-    background: linear-gradient(135deg, rgb(172, 177, 173), rgb(68 64 60) 125%); /* Gradiente do texto */
-    -webkit-background-clip: text;       /* Aplica o gradiente ao texto */
-    -webkit-text-fill-color: transparent; /* Torna a cor do texto transparente */
-    background-clip: text;               /* Para navegadores que suportam */   
+    font-size: 3.75rem;
+    background: linear-gradient(135deg, rgb(172, 177, 173), rgb(68 64 60) 125%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 #description-objectives {
@@ -83,9 +83,9 @@ main {
     font-weight: 200;
     font-style: normal;
     font-size: 1.20rem;
-    background: linear-gradient(to bottom, rgb(172, 177, 173), rgb(95, 95, 95)200%); /* Gradiente do texto */
-    -webkit-background-clip: text;       /* Aplica o gradiente ao texto */
-    -webkit-text-fill-color: transparent; /* Torna a cor do texto transparente */
+    background: linear-gradient(to bottom, rgb(172, 177, 173), rgb(95, 95, 95)200%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     background-clip: text;
     
 }
@@ -124,9 +124,9 @@ main {
     font-weight: 700;
     font-style: normal;
     font-size: 1.25rem;
-    background: linear-gradient(to bottom, rgb(255, 255, 255)5%, rgb(255, 255, 255)120%); /* Gradiente do texto */
-    -webkit-background-clip: text;       /* Aplica o gradiente ao texto */
-    -webkit-text-fill-color: transparent; /* Torna a cor do texto transparente */
+    background: linear-gradient(to bottom, rgb(255, 255, 255)5%, rgb(255, 255, 255)120%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
     background-clip: text;    
     opacity: 120%;
 }
@@ -162,7 +162,7 @@ main {
     font-weight: 400;
     font-style: normal;
     font-size: 1.75rem;
-    background: linear-gradient(to bottom, rgb(255, 255, 255)5%, rgb(255, 255, 255)120%); /* Gradiente do texto */
+    background: linear-gradient(to bottom, rgb(255, 255, 255)5%, rgb(255, 255, 255)120%);
     -webkit-background-clip: text;
     opacity: 70%;
     transform: rotate(-5deg);
@@ -183,9 +183,9 @@ main {
     font-weight: 700;
     font-style: normal;
     font-size: 1.85rem;
-    background: linear-gradient(to bottom, rgb(211, 211, 211), rgb(95, 95, 95)200%); /* Gradiente do texto */
-    -webkit-background-clip: text;       /* Aplica o gradiente ao texto */
-    -webkit-text-fill-color: transparent; /* Torna a cor do texto transparente */
+    background: linear-gradient(to bottom, rgb(211, 211, 211), rgb(95, 95, 95)200%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
     background-clip: text;
     margin-bottom: 1rem;
 }
@@ -217,8 +217,8 @@ main {
     font-weight: 500;
     font-style: normal;
     font-size: 1.25rem;
-    background: linear-gradient(to bottom, rgb(255, 255, 255)5%, rgb(255, 255, 255)120%); /* Gradiente do texto */
-    -webkit-background-clip: text;       /* Aplica o gradiente ao texto */
+    background: linear-gradient(to bottom, rgb(255, 255, 255)5%, rgb(255, 255, 255)120%);
+    -webkit-background-clip: text;
     background-clip: text;
     opacity: 40%;
     transition: all 0.2s;
@@ -240,19 +240,19 @@ main {
 }
 
 .images-of-equipaments img {
-    max-width: 100%; /* A largura máxima será a do contêiner */
+    max-width: 100%;
     max-height: 100%;
     border-radius: 40px;
     -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1)75%, rgba(0, 0, 0, 0));
-    transition: opacity 0.5s ease, transform 0.5s ease; /* Anima opacidade e escala */
-    opacity: 0.8; /* Opacidade inicial */
-    transform: scale(1); /* Escala inicial */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 0.8;
+    transform: scale(1);
 }
 
 .images-of-equipaments img.fade-out {
-    opacity: 0; /* Quando a classe fade-out é adicionada, a opacidade vai para 0 */
-    transform: scale(0.8); /* Reduz a escala */
+    opacity: 0; 
+    transform: scale(0.8);
 }
 
 #video-part {
@@ -267,9 +267,9 @@ main {
     font-weight: 700;
     font-style: normal;
     font-size: 1.85rem;
-    background: linear-gradient(to bottom, rgb(211, 211, 211), rgb(95, 95, 95)200%); /* Gradiente do texto */
-    -webkit-background-clip: text;       /* Aplica o gradiente ao texto */
-    -webkit-text-fill-color: transparent; /* Torna a cor do texto transparente */
+    background: linear-gradient(to bottom, rgb(211, 211, 211), rgb(95, 95, 95)200%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     
     margin-bottom: 1rem;
 }
@@ -292,9 +292,9 @@ main {
     font-weight: 700;
     font-style: normal;
     font-size: 1.85rem;
-    background: linear-gradient(to bottom, rgb(211, 211, 211), rgb(95, 95, 95)200%); /* Gradiente do texto */
-    -webkit-background-clip: text;       /* Aplica o gradiente ao texto */
-    -webkit-text-fill-color: transparent; /* Torna a cor do texto transparente */
+    background: linear-gradient(to bottom, rgb(211, 211, 211), rgb(95, 95, 95)200%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     background-clip: text;
     margin-bottom: 1rem;
 }
@@ -304,9 +304,9 @@ main {
     font-weight: 500;
     font-style: normal;
     font-size: 1.35rem;
-    background: linear-gradient(to bottom, rgb(211, 211, 211), rgb(95, 95, 95)200%); /* Gradiente do texto */
-    -webkit-background-clip: text;       /* Aplica o gradiente ao texto */
-    -webkit-text-fill-color: transparent; /* Torna a cor do texto transparente */
+    background: linear-gradient(to bottom, rgb(211, 211, 211), rgb(95, 95, 95)200%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
     background-clip: text;
     margin-bottom: 1rem;
 }
@@ -340,9 +340,9 @@ footer h4 {
     font-weight: 500;
     font-style: normal;
     font-size: 1.35rem;
-    background: linear-gradient(to bottom, rgb(211, 211, 211), rgb(95, 95, 95)200%); /* Gradiente do texto */
-    -webkit-background-clip: text;       /* Aplica o gradiente ao texto */
-    -webkit-text-fill-color: transparent; /* Torna a cor do texto transparente */
+    background: linear-gradient(to bottom, rgb(211, 211, 211), rgb(95, 95, 95)200%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     background-clip: text;
     margin-bottom: 1rem;
 }
@@ -400,7 +400,7 @@ footer h4 {
     #muscular-guy {
         margin-top: 4.5rem;
         left: 0%;
-        width: 100%;
+        width: 90%;
         margin-bottom: 5rem;
         max-width: 100%;
         overflow: hidden;
@@ -556,8 +556,8 @@ footer h4 {
     }
 
     footer h4 {
-        font-size: 2.6rem;
-        margin-bottom: 4rem;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
         margin-top: 4rem;
     }
 
@@ -568,10 +568,10 @@ footer h4 {
     }
 
     .instagram img {
-        width: 3rem;
+        width: 2rem;
     }
 
     .whatsapp img {
-        width: 3rem;
+        width: 2rem;
     }
 }
