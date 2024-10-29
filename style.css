@@ -162,8 +162,7 @@ main {
     font-style: normal;
     font-size: 1.75rem;
     background: linear-gradient(to bottom, rgb(255, 255, 255)5%, rgb(255, 255, 255)120%); /* Gradiente do texto */
-    -webkit-background-clip: text;       /* Aplica o gradiente ao texto */
-    background-clip: text;    
+    -webkit-background-clip: text;
     opacity: 70%;
     transform: rotate(-5deg);
     position: relative;
@@ -363,6 +362,10 @@ footer h4 {
 
 @media screen and (max-width: 990px) {
 
+    header {
+        width: 100vw;
+    }
+
     main {
         width: 100vw;
     }
@@ -371,24 +374,33 @@ footer h4 {
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 100vw;
+    }
+
+    #logo-home {
         min-width: 100vw;
+        display: flex;
+        justify-content: center;
     }
 
     #logo {
-        width: 30vw;
+        width: 15vh;
     }
 
     .presentation {
-        font-size: 4.75rem; 
+        font-size: 3.05rem; 
     }
 
     #muscular-guy {
         margin-top: 4.5rem;
-        margin-left: 3.5vw;
-        width: 120%;
+        margin-left: 10vw;
+        width: 170%;
+        margin-bottom: 5rem;;
     }
 
     #description-objectives {
+        width: 100vw;
+        margin-top: 4rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -402,14 +414,16 @@ footer h4 {
     #blocks-objectives {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         gap: 4rem;
-        height: 120vh;
+        height: 90vh;
+        margin:0;
     }
 
     .little-blocks {
         width: 65vw;
-        height: 30vh;
+        height: 20vh;
     }
 
     .little-blocks h4 {
@@ -432,19 +446,38 @@ footer h4 {
     }
 
     #arrow {
-        width: 10rem;
+        width: 6rem;
+        position: relative;
+        bottom: 4rem;
+        right: 5rem;
+        transform: rotate(320deg);
+    }
+
+    #obs {
+        width: 100vw;
+        margin-bottom: 10rem;
     }
 
     #obs h6 {
-        font-size: 2.9rem;
+        font-size: 2.3rem;
+        left: 0;
+        right: 20rem !important;
+        bottom: 5rem;
     }
 
     #images-part {
+        margin-top: 0;
         width: 100vw;
     }
 
     #box-of-images {
         height: 30%;
+        width: 90vw;
+        gap: 3rem;
+    }
+
+    #equipaments {
+        width: 100vw;
     }
 
     #images-part h3 {
@@ -463,13 +496,13 @@ footer h4 {
     }
 
     #video-part h3 {
-        font-size: 1.2rem !important;
+        font-size: 2.0rem !important;
         margin: 0px;
     }
 
     #video-part video {
         width: 90vw;
-        height: 40vh;
+        height: 32vh;
         margin: 0px;
     }
 
