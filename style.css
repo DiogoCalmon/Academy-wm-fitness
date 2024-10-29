@@ -270,7 +270,7 @@ main {
     background: linear-gradient(to bottom, rgb(211, 211, 211), rgb(95, 95, 95)200%); /* Gradiente do texto */
     -webkit-background-clip: text;       /* Aplica o gradiente ao texto */
     -webkit-text-fill-color: transparent; /* Torna a cor do texto transparente */
-    background-clip: text;
+    
     margin-bottom: 1rem;
 }
 
@@ -363,15 +363,19 @@ footer h4 {
 
 @media screen and (max-width: 990px) {
 
+    main {
+        width: 100vw;
+    }
+
     #first-block{
         display: flex;
         justify-content: center;
         align-items: center;
-        min-width: 100vh;
+        min-width: 100vw;
     }
 
     #logo {
-        width: 30vh;
+        width: 30vw;
     }
 
     .presentation {
@@ -380,7 +384,7 @@ footer h4 {
 
     #muscular-guy {
         margin-top: 4.5rem;
-        margin-left: 3.5vh;
+        margin-left: 3.5vw;
         width: 120%;
     }
 
@@ -404,7 +408,7 @@ footer h4 {
     }
 
     .little-blocks {
-        width: 65vh;
+        width: 65vw;
         height: 30vh;
     }
 
@@ -435,16 +439,48 @@ footer h4 {
         font-size: 2.9rem;
     }
 
+    #images-part {
+        width: 100vw;
+    }
+
+    #box-of-images {
+        height: 30%;
+    }
+
     #images-part h3 {
         margin-inline: 2rem;
         text-align: center;
         font-size: 2.85rem;
     }
 
+    #video-part {
+        width: 100vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #video-part h3 {
+        font-size: 1.2rem !important;
+        margin: 0px;
+    }
+
+    #video-part video {
+        width: 90vw;
+        height: 40vh;
+        margin: 0px;
+    }
+
     #video-part h3 {
         margin-inline: 2rem;
         text-align: center;
         font-size: 2.85rem;
+    }
+
+    #calling-user {
+        width: 100vw
     }
 
     #calling-user h3 {
@@ -456,18 +492,21 @@ footer h4 {
     #calling-user p {
         margin-inline: 2rem;
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     .btn {
-        width: 70vh;
-        padding: 1rem 8rem;
-        font-size: 2rem;
+        width: 70vw;
+        padding: 1rem 5rem;
+        font-size: 1rem;
         display: flex;
+        justify-content: center;
         gap: 4rem;
     }
 
-    
+    footer {
+        width: 100vw;
+    }
 
     footer h4 {
         font-size: 2.6rem;
@@ -482,10 +521,10 @@ footer h4 {
     }
 
     .instagram img {
-        width: 4rem;
+        width: 3rem;
     }
 
     .whatsapp img {
-        width: 4rem;
+        width: 3rem;
     }
 }
