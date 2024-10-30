@@ -8,7 +8,8 @@ body {
     background-color: #0E100F;
     color: whitesmoke;
     height: 100vh;
-    width: 99vw;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 main {
